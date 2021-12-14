@@ -1,0 +1,284 @@
+@font-face{
+    font-family: yekan;
+    src: url(../font/BYekan+\ Bold.ttf);}
+   @import url(https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap%27) ;
+
+*{
+
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    box-sizing:border-box;
+}
+
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+
+
+body{
+    direction: rtl;
+    font-family: yekan,sans-serif;
+}
+
+
+
+
+header{
+    background-color:rgb(253, 246, 246);
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+}
+
+.container {
+max-width: 960px;
+margin: 0px auto;
+}
+
+.hedear {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+header nav ul{
+    display: flex;
+    list-style-type: none;
+}
+
+header nav ul a{
+   
+    
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    transition: all .3s;
+   
+}
+
+header nav ul a:hover{
+   
+    color: darksalmon;
+}
+
+
+.h-logo{
+    font-size: 25px;
+
+}
+.h-logo a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Dancing Script', cursive;
+    
+}
+
+
+.welcom{
+    display: flex;
+    justify-content: center;
+    background: url(../img/WhatsApp\ Image\ 2021-11-23\ at\ 15.54.08.jpeg) no-repeat center/ cover;
+    min-height: 80vh;
+}
+
+
+ .h{
+    font-weight: 100;
+    font-size: 20px;
+    color: white;
+   
+
+    
+}
+
+
+
+
+
+
+
+.welcom-btn  {
+    width: 100px;
+    display: inline-block;
+  padding: 10px; 
+    text-align: center;
+    background-color: rgb(12, 11, 11);
+    color: rgb(253, 253, 253);
+    text-decoration: none;
+    font-size: 15px;
+    margin-right: 100px;
+    margin-top: 20px;
+    border-radius: 3px;
+    
+}
+
+
+.welcom h1{
+    margin-left: 278px;
+    padding-top: 150px;
+    color: rgb(15, 12, 6);
+    text-shadow:2px 3px 5px white ;
+    
+}
+
+.bag-min h2 ,.bag-min p{
+text-align: center;
+color: black;
+padding: 50px 0px 0px 0px;
+}
+
+.img{
+   
+    margin: 50px 340px 100px 0px;
+} 
+
+
+
+
+
+
+
+
+
+
+
+.var{
+background-color: thistle;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-auto-rows: minmax(150px, auto);
+   
+
+}
+
+.box-3 {
+    grid-column: 3 / 5;
+    grid-row: 1 / 3;
+
+}
+
+
+.box-2{
+    width: 300px;
+    height: 300px;
+    background-color: aliceblue;
+
+}
+
+.box-5{
+grid-column: 2/3;
+grid-row: 2/3;
+
+}
+
+
+.box-4{
+    width: 300px;
+    height: 300px;
+    background-color: aliceblue;
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+.footer{
+    background-color: black;
+    height: 300px;
+    width:1377 px;
+    display: flex;
+ 
+}
+
+
+h1{
+    color: white;
+    direction: ltr;
+    margin: 60px 70px 40px 80px  ;
+
+    font-size: 20px;
+}
+
+p{
+    color: white;
+    direction: ltr;
+}
+
+.n{
+    border-radius: 50%;
+  
+    width: 80px;
+    height: 80px;
+    margin-right: 170px;
+    margin-top: -28px;
+}
+
+
+.one {
+    color: white;
+    flex-basis: 25%;
+  
+}
+
+
+
+.one p {
+    color: white;
+    flex-basis: 25%;
+  margin-left: 20px;
+}
+
+
+
+
+.tow{
+    color: white;
+  flex-basis: 25%;
+  align-items: center;
+  margin-left: 50px;
+
+
+}
+
+.tree{
+    color: white;
+  flex-basis: 25%;
+   
+
+}
+.for{
+    color: white;
+  flex-basis: 25%;
+   
+
+}
+
+
+.footer div p {
+    margin-left: 50px;
+    align-items: center;
+}
+
+.input{
+    margin-right: 106px;
+    margin-bottom: 50px;
+padding: 10px;
+
+}
+
+
+
+.icone{
+    margin-right: 182px;
+    margin-top: 20px;
+}
+i {
+    padding: 8px;
+}
